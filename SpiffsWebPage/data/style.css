@@ -1,0 +1,38 @@
+
+html {
+  display: inline-block; 
+  text-align: center;
+}
+h1 {
+  font-size: 32px; 
+  color: white;
+}
+p { 
+  font-size: 24px;
+}
+.title { 
+  overflow: hidden; 
+  background-color: #aa5d05;
+}
+body {  
+  margin: 0;
+}
+.content { 
+  margin-top: 10%;
+}
+.card-grid { 
+  max-width: 1200px; 
+  margin: 0 auto; 
+  display: grid; 
+  grid-gap: 40px; 
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.card { 
+  background-color: white;
+  box-shadow: 4px 4px 16px 4px rgba(59, 53, 53, 0.5);
+}
+.card-title { 
+  font-size: 24px;
+  font-weight: bold;
+  color: #c50c0c
+}
